@@ -1,0 +1,12 @@
+4cc31b8aa4c9c5958b1e298fea6f6e48 *DESCRIPTION
+e134ed75a276a837c7e3915d143a4f3b *LICENSE
+9f59de07582753702711d4d7251f900f *NAMESPACE
+f8c5cb391cfd9cbdab3d1f6db63a599c *R/otp.R
+9cd527dcebdbc0d9ee0e6dadb2990b02 *R/utils.R
+bd4130cf342d2da26b6cbd91589b6af3 *README.md
+5a42dc67ef1bc2cb2cb6917f9a5c60d8 *man/HOTP.Rd
+f86f9b29fc3885c0ad894a530345cdbf *man/TOTP.Rd
+823e06f08c2238fab7df48635c983ba9 *man/otp-package.Rd
+a63f1406e099c058e2b6e7f81202301e *tests/testthat.R
+0ff0a14bf1d1626c607c25878c1a2b06 *tests/testthat/test-hotp.R
+7c2123c6b40358173ba8e3da92f2a44c *tests/testthat/test-totp.R
