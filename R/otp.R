@@ -1,6 +1,5 @@
 #' @docType package
 #' @importFrom base64url base32_decode base32_encode
-#' @aliases NULL
 "_PACKAGE"
 
 
@@ -129,7 +128,7 @@ OTP <- R6::R6Class(
 #' p$verify("964230", 7, ahead = 3)
 #'
 #' p$provisioning_uri("Alice", issuer = "example.com", counter = 5)
-#' @seealso \url{https://tools.ietf.org/html/rfc4226}
+#' @seealso \url{https://datatracker.ietf.org/doc/html/rfc4226}
 #' @export
 HOTP <- R6::R6Class(
     "HOTP",
@@ -216,7 +215,7 @@ HOTP <- R6::R6Class(
 #' p$verify(code, current_time + 30, behind = 1)
 #'
 #' p$provisioning_uri("Alice", issuer = "example.com")
-#' @seealso \url{https://tools.ietf.org/html/rfc6238}
+#' @seealso \url{https://datatracker.ietf.org/doc/html/rfc6238}
 #' @export
 TOTP <- R6::R6Class(
     "TOTP",
